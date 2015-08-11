@@ -1,0 +1,90 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+html {
+	height: 101%;
+}
+
+.block {
+	float: left;
+	margin: 2px;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 12px;
+	width: 90px;
+}
+
+.yes-block {
+	background: #ccffcc;
+	color: #006600;
+}
+
+.no-block {
+	background: #ff7f7f;
+	color: #b20000;
+}
+
+.blank {
+	width: 90px;
+	background: #ffcccc;
+	color:#990000;
+}
+
+.blank .day-of-month {
+	color: black;
+}
+
+.day-of-month {
+	font-size: 30px;
+	padding: 5px 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+.main-button {
+	color: white;
+	text-decoration: none;
+	padding: 8px 16px 9px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.no {
+	background: #CC2F2F;
+}
+
+.no:hover {
+	background: #B22020;
+}
+.yes {
+	background: #00b200;
+}
+
+.yes:hover {
+	background: #009900;
+}
+
+.the-question {
+	text-align: center;
+	width: 280px;
+	height: 160px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 5px;
+	margin: auto;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	padding: 10px 20px 20px 20px;
+	color: #007f00;
+	background: #fff;
+}
+
+.the-question:hover {
+	background: transparent;
+}
